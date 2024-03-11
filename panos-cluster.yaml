@@ -2,7 +2,6 @@ apiVersion: kafka.strimzi.io/v1beta2
 kind: Kafka
 metadata:
   name: panos-cluster
-  namespace: panos
 spec:
   entityOperator:
     topicOperator: {}
